@@ -1,0 +1,24 @@
+package bt1;
+
+public class Order extends Customer {
+
+	Date date;
+	String Number;
+
+	public Order() {
+
+	}
+
+	public Order(Date Date, String Number) {
+		this.Date = date;
+		this.Number = Number;
+	}
+
+	void confirm() {
+
+	}
+
+	void close() {
+	}
+
+}
